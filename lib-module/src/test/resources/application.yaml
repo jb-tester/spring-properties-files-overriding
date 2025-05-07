@@ -1,0 +1,4 @@
+my:
+  lib:
+    yaml:
+      test: defined in lib-module test application.yaml
