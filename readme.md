@@ -1,7 +1,9 @@
 ## Values from property source files that are not available in the classpath are shown as available.
 
 1. IDEA shows the values from the test `application.properties` file as available for the source class.
+   https://youtrack.jetbrains.com/issue/IDEA-372297/Spring-Boot-correctly-treat-the-same-named-configuration-properties-resources
 2. Also, it shows the values from the main module `application.properties` file as available for the classes in the library module.
+   https://youtrack.jetbrains.com/issue/IDEA-372298/Spring-Boot-dont-show-the-properties-defined-in-the-test-resources-as-available-in-the-source-classes
 
 ## The same-named property sources overriding
 
